@@ -1,10 +1,13 @@
+import React from 'react';
+import Editor from './components/Editor';
 import './App.css';
 
 function App(): JSX.Element {
   return (
     <div className="app">
       <h1>Welcome to Tiptap</h1>
-      <p>The project setup is ready. Happy building!</p>
+      <p>Create rich text content with the editor below.</p>
+      <Editor />
     </div>
   );
 }
